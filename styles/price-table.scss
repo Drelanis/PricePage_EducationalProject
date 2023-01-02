@@ -3,17 +3,14 @@
 .price-table {
   display: flex;
   margin: auto;
-  width: 1440px;
-  height: 1000px;
   background-color: $black-first-shade;
-  z-index: 3;
+  padding: 115px 132px;
   &__price-card {
     position: relative;
-    margin: auto;
     height: 770px;
     width: 380px;
     background-color: $grey-first-shade;
-    z-index: 2;
+    // margin: 115px 0 115px 115px;
     &_title {
       text-align: center;
       margin: 34px 0 0;
@@ -103,6 +100,6 @@
     }
   }
   &__price-card:not(:first-child) {
-    margin-left: 18px;
+    margin: 0 0 0 18px;
   }
 }

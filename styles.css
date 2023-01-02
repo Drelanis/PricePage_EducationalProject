@@ -1,18 +1,14 @@
 .price-table {
   display: flex;
   margin: auto;
-  width: 1440px;
-  height: 1000px;
   background-color: rgb(20, 27, 28);
-  z-index: 3;
+  padding: 115px 132px;
 }
 .price-table__price-card {
   position: relative;
-  margin: auto;
   height: 770px;
   width: 380px;
   background-color: rgb(51, 66, 71);
-  z-index: 2;
 }
 .price-table__price-card_title {
   text-align: center;
@@ -98,7 +94,7 @@
   background-color: rgb(236, 99, 42);
 }
 .price-table__price-card:not(:first-child) {
-  margin-left: 18px;
+  margin: 0 0 0 18px;
 }
 
 html {
@@ -108,6 +104,7 @@ html {
 
 body {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   background-color: rgb(242, 242, 242);
   margin: 0;
