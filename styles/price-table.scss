@@ -3,9 +3,11 @@
 .table {
   margin: auto;
   display: flex;
-  max-width: 1440px;
+  width: 1440px;
+  height: 1000px;
   background-color: rgb(20, 27, 28);
-  padding: 132px 115px;
+  justify-content: center;
+  align-items: center;
   .price-card {
     position: relative;
     max-height: 770px;
