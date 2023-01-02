@@ -1,0 +1,85 @@
+.price-table {
+  display: flex;
+  margin: auto;
+  width: 1440px;
+  height: 1000px;
+  background-color: rgb(20, 27, 28);
+}
+.price-table__price-card {
+  margin: auto;
+  height: 770px;
+  width: 380px;
+  background-color: rgb(51, 66, 71);
+}
+.price-table__price-card_title {
+  text-align: center;
+  margin: 34px 0 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.price-table__price-card_title::first-line {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+}
+.price-table__price-card_price {
+  display: block;
+  text-align: center;
+  margin-top: 19px;
+  height: 105px;
+  background-color: rgb(91, 177, 137);
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 105px;
+}
+.price-table__price-card_description {
+  text-align: center;
+  margin: 40px 26px 0;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-table__price-card_options-list {
+  list-style-type: none;
+  margin: 40px 0 0;
+  padding: 0;
+}
+.price-table__price-card_options-list .price-table__price-card_options-list-marker {
+  margin: 0 22px;
+  width: 15px;
+  height: 13px;
+}
+.price-table__price-card_options-list .price-table__price-card_options-list-item {
+  height: 50px;
+  line-height: 50px;
+  background-color: rgb(51, 66, 71);
+}
+.price-table__price-card_options-list .price-table__price-card_options-list-item:nth-child(odd) {
+  background-color: rgb(42, 52, 56);
+}
+.price-table__price-card_order-btn {
+  border: none;
+  background-color: rgb(91, 177, 137);
+  margin: 39px 112px 40px 113px;
+  width: 154px;
+  height: 40px;
+  border-radius: 20px;
+}
+.price-table__price-card:not(:first-child) {
+  margin-left: 18px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(242, 242, 242);
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
