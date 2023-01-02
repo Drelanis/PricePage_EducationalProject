@@ -7,8 +7,8 @@
 }
 .price-table__price-card {
   position: relative;
-  height: 770px;
-  width: 380px;
+  max-height: 770px;
+  max-width: 380px;
   background-color: rgb(51, 66, 71);
 }
 .price-table__price-card_title {
