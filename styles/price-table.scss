@@ -1,16 +1,16 @@
 @import 'variables.scss';
 
 .price-table {
-  display: flex;
   margin: auto;
+  display: flex;
+  max-width: 1440px;
   background-color: $black-first-shade;
-  padding: 115px 132px;
+  padding: 132px 115px;
   &__price-card {
     position: relative;
     height: 770px;
     width: 380px;
     background-color: $grey-first-shade;
-    // margin: 115px 0 115px 115px;
     &_title {
       text-align: center;
       margin: 34px 0 0;
