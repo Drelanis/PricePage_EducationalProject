@@ -1,8 +1,10 @@
 .table {
   display: flex;
-  margin: auto;
+  width: 1440px;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(20, 27, 28);
-  padding: 132px 115px;
 }
 .table .price-card {
   position: relative;
@@ -101,6 +103,10 @@
   margin: 0 0 0 18px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
@@ -109,11 +115,10 @@ html {
 body {
   display: flex;
   height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(242, 242, 242);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */

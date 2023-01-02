@@ -2,11 +2,11 @@
 
 .table {
   display: flex;
-  margin: auto;
-  // height: 1000px;
-  // width: 1440px;
+  width: 1440px;
+  height: 1000px;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(20, 27, 28);
-  padding: 132px 115px;
   .price-card {
     position: relative;
     max-height: 770px;
