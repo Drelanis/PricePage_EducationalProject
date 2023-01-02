@@ -6,12 +6,14 @@
   width: 1440px;
   height: 1000px;
   background-color: $black-first-shade;
-
+  z-index: 3;
   &__price-card {
+    position: relative;
     margin: auto;
     height: 770px;
     width: 380px;
     background-color: $grey-first-shade;
+    z-index: 2;
     &_title {
       text-align: center;
       margin: 34px 0 0;
@@ -66,6 +68,38 @@
       width: 154px;
       height: 40px;
       border-radius: 20px;
+    }
+    &_popular {
+      position: absolute;
+      display: inline-block;
+      text-align: center;
+      line-height: 25px;
+      width: 147px;
+      height: 25px;
+      font-weight: 700;
+      font-size: 14px;
+      background-color: $red-first-shade;
+      transform: rotate(45deg);
+      top: 1000px;
+      clip-path: polygon(25px 0, 122px 0, 100% 100%, 0% 100%);
+      top: 30.8px;
+      left: 263.5px;
+    }
+  }
+  &__price-card:nth-child(2) {
+    .price-table__price-card_price {
+      background-color: $blue-first-shade;
+    }
+    .price-table__price-card_order-btn {
+      background-color: $blue-first-shade;
+    }
+  }
+  &__price-card:nth-child(3) {
+    .price-table__price-card_price {
+      background-color: $orange-first-shade;
+    }
+    .price-table__price-card_order-btn {
+      background-color: $orange-first-shade;
     }
   }
   &__price-card:not(:first-child) {

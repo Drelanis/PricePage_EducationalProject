@@ -4,12 +4,15 @@
   width: 1440px;
   height: 1000px;
   background-color: rgb(20, 27, 28);
+  z-index: 3;
 }
 .price-table__price-card {
+  position: relative;
   margin: auto;
   height: 770px;
   width: 380px;
   background-color: rgb(51, 66, 71);
+  z-index: 2;
 }
 .price-table__price-card_title {
   text-align: center;
@@ -65,6 +68,34 @@
   width: 154px;
   height: 40px;
   border-radius: 20px;
+}
+.price-table__price-card_popular {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  line-height: 25px;
+  width: 147px;
+  height: 25px;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: rgb(220, 63, 69);
+  transform: rotate(45deg);
+  top: 1000px;
+  clip-path: polygon(25px 0, 122px 0, 100% 100%, 0% 100%);
+  top: 30.8px;
+  left: 263.5px;
+}
+.price-table__price-card:nth-child(2) .price-table__price-card_price {
+  background-color: rgb(58, 107, 165);
+}
+.price-table__price-card:nth-child(2) .price-table__price-card_order-btn {
+  background-color: rgb(58, 107, 165);
+}
+.price-table__price-card:nth-child(3) .price-table__price-card_price {
+  background-color: rgb(236, 99, 42);
+}
+.price-table__price-card:nth-child(3) .price-table__price-card_order-btn {
+  background-color: rgb(236, 99, 42);
 }
 .price-table__price-card:not(:first-child) {
   margin-left: 18px;
