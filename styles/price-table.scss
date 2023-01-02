@@ -1,29 +1,29 @@
 @import 'variables.scss';
 
-.price-table {
+.table {
   margin: auto;
   display: flex;
   max-width: 1440px;
   background-color: rgb(20, 27, 28);
   padding: 132px 115px;
-  &__price-card {
+  .price-card {
     position: relative;
     max-height: 770px;
     max-width: 380px;
     background-color: $grey-first-shade;
-    &_title {
+    &__title {
       text-align: center;
       margin: 34px 0 0;
       font-weight: 400;
       font-size: 20px;
       line-height: 24px;
     }
-    &_title::first-line {
+    &__title::first-line {
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
     }
-    &_price {
+    &__price {
       display: block;
       text-align: center;
       margin-top: 19px;
@@ -33,32 +33,32 @@
       font-size: 55px;
       line-height: 105px;
     }
-    &_description {
+    &__description {
       text-align: center;
       margin: 40px 26px 0;
       font-weight: 300;
       font-size: 15px;
       line-height: 18px;
     }
-    &_options-list {
+    &__options-list {
       list-style-type: none;
       margin: 40px 0 0;
       padding: 0;
-      .price-table__price-card_options-list-marker {
+      .price-card__options-list_item-marker {
         margin: 0 22px;
         width: 15px;
         height: 13px;
       }
-      .price-table__price-card_options-list-item {
+      &_item {
         height: 50px;
         line-height: 50px;
         background-color: $grey-first-shade;
       }
-      .price-table__price-card_options-list-item:nth-child(odd) {
+      &_item:nth-child(odd) {
         background-color: $black-second-shade;
       }
     }
-    &_order-btn {
+    &__order-btn {
       border: none;
       background-color: $green-first-shade;
       margin: 39px 112px 40px 113px;
@@ -66,7 +66,7 @@
       height: 40px;
       border-radius: 20px;
     }
-    &_popular {
+    &__popular {
       position: absolute;
       display: inline-block;
       text-align: center;
@@ -83,23 +83,23 @@
       left: 263.5px;
     }
   }
-  &__price-card:nth-child(2) {
-    .price-table__price-card_price {
+  .price-card:nth-child(2) {
+    .price-card__price {
       background-color: $blue-first-shade;
     }
-    .price-table__price-card_order-btn {
+    .price-card__order-btn {
       background-color: $blue-first-shade;
     }
   }
-  &__price-card:nth-child(3) {
-    .price-table__price-card_price {
+  .price-card:nth-child(3) {
+    .price-card__price {
       background-color: $orange-first-shade;
     }
-    .price-table__price-card_order-btn {
+    .price-card__order-btn {
       background-color: $orange-first-shade;
     }
   }
-  &__price-card:not(:first-child) {
+  .price-card:not(:first-child) {
     margin: 0 0 0 18px;
   }
 }
