@@ -4,11 +4,14 @@
 html {
   font-family: 'Montserrat', sans-serif;
   color: $white;
-  background-color: $white-first-shade;
 }
 
 body {
   display: flex;
   height: 100vh;
-  margin: 0;
+  background-color: $white-first-shade;
+}
+
+* {
+  box-sizing: border-box;
 }

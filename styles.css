@@ -69,6 +69,7 @@
   width: 154px;
   height: 40px;
   border-radius: 20px;
+  color: rgb(255, 255, 255);
 }
 .table .price-card__popular {
   position: absolute;
@@ -105,13 +106,16 @@
 html {
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
-  background-color: rgb(242, 242, 242);
 }
 
 body {
   display: flex;
   height: 100vh;
-  margin: 0;
+  background-color: rgb(242, 242, 242);
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=styles.css.map */
