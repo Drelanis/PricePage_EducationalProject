@@ -1,6 +1,6 @@
 <h1>Layout Price Page</h1>
 
-<a href="https://drelanis.github.io/price-page/">Site link</a>
+<a href="https://drelanis.github.io/Price-page/">Site link</a>
 
 <p>Layout for desktop (up-to-1400) versions</p>
 
